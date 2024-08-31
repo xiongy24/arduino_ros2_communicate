@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target arduino_serial_node[0m
+[100%] Built target arduino_serial_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/lib/arduino_communication/arduino_serial_node
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/ament_index/resource_index/package_run_dependencies/arduino_communication
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/ament_index/resource_index/parent_prefix_path/arduino_communication
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/environment/path.sh
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/environment/path.dsv
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/local_setup.bash
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/local_setup.sh
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/local_setup.zsh
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/local_setup.dsv
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/package.dsv
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/ament_index/resource_index/packages/arduino_communication
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/cmake/arduino_communicationConfig.cmake
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/cmake/arduino_communicationConfig-version.cmake
+-- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/package.xml

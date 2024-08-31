@@ -1,0 +1,61 @@
+[0.007s] Invoking command in '/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.116s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.243s] -- Detecting CXX compiler ABI info - done
+[0.247s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.248s] -- Detecting CXX compile features
+[0.248s] -- Detecting CXX compile features - done
+[0.250s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.480s] -- Found Python3: /home/xy/anaconda3/bin/python3 (found version "3.11.3") found components: Interpreter 
+[0.525s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.546s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.578s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.581s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.587s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.595s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.606s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.638s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.640s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.704s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.726s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.759s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.768s] -- Looking for pthread.h
+[0.828s] -- Looking for pthread.h - found
+[0.828s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.881s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.882s] -- Found Threads: TRUE  
+[0.921s] -- Found serial_driver: 1.2.0 (/opt/ros/humble/share/serial_driver/cmake)
+[0.935s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)
+[0.936s] -- Found ASIO: /usr/include  
+[0.981s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.054s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.055s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.055s] -- Configured cppcheck include dirs: 
+[1.055s] -- Configured cppcheck exclude dirs and/or files: 
+[1.055s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.055s] -- Configured cpplint exclude dirs and/or files: 
+[1.056s] -- Added test 'lint_cmake' to check CMake code style
+[1.056s] -- Added test 'uncrustify' to check C / C++ code style
+[1.056s] -- Configured uncrustify additional arguments: 
+[1.056s] -- Added test 'xmllint' to check XML markup files
+[1.057s] -- Configuring done
+[1.067s] -- Generating done
+[1.068s] -- Build files have been written to: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication
+[1.075s] Invoked command in '/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication
+[1.076s] Invoking command in '/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication -- -j16 -l16
+[1.104s] [35m[1mConsolidate compiler generated dependencies of target arduino_serial_node[0m
+[1.121s] [ 50%] [32mBuilding CXX object CMakeFiles/arduino_serial_node.dir/src/arduino_serial_node.cpp.o[0m
+[2.828s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:[m[K In member function ‘[01m[Kvoid ArduinoSerialNode::timer_callback()[m[K’:
+[2.828s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:50:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class drivers::serial_driver::SerialPort[m[K’ {aka ‘[01m[Kclass drivers::serial_driver::SerialPort[m[K’} has no member named ‘[01m[Kstream[m[K’
+[2.828s]    50 |     std::getline(serial_driver_->port()->[01;31m[Kstream[m[K(), data); // 读取完整的一行数据
+[2.828s]       |                                          [01;31m[K^~~~~~[m[K
+[3.385s] gmake[2]: *** [CMakeFiles/arduino_serial_node.dir/build.make:76：CMakeFiles/arduino_serial_node.dir/src/arduino_serial_node.cpp.o] 错误 1
+[3.385s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/arduino_serial_node.dir/all] 错误 2
+[3.385s] gmake: *** [Makefile:146：all] 错误 2
+[3.386s] Invoked command in '/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication -- -j16 -l16

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication/arduino_serial_node" "TARGETS" "arduino_serial_node" "DESTINATION" "lib/arduino_communication")

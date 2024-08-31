@@ -1,0 +1,10 @@
+/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication/CMakeFiles/uninstall.dir
+/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication/CMakeFiles/arduino_communication_uninstall.dir
+/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication/CMakeFiles/arduino_serial_node.dir
+/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication/CMakeFiles/test.dir
+/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication/CMakeFiles/edit_cache.dir
+/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication/CMakeFiles/rebuild_cache.dir
+/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication/CMakeFiles/list_install_components.dir
+/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication/CMakeFiles/install.dir
+/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication/CMakeFiles/install/local.dir
+/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication/CMakeFiles/install/strip.dir

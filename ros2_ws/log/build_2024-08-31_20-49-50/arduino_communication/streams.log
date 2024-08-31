@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication -- -j16 -l16
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target arduino_serial_node[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/arduino_serial_node.dir/src/arduino_serial_node.cpp.o[0m
+[3.135s] [100%] [32m[1mLinking CXX executable arduino_serial_node[0m
+[3.300s] [100%] Built target arduino_serial_node
+[3.308s] Invoked command in '/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication -- -j16 -l16
+[3.337s] Invoking command in '/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication
+[3.347s] -- Install configuration: ""
+[3.347s] -- Execute custom install script
+[3.348s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/lib/arduino_communication/arduino_serial_node
+[3.348s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/ament_index/resource_index/package_run_dependencies/arduino_communication
+[3.348s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/ament_index/resource_index/parent_prefix_path/arduino_communication
+[3.348s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/environment/ament_prefix_path.sh
+[3.348s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/environment/ament_prefix_path.dsv
+[3.348s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/environment/path.sh
+[3.349s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/environment/path.dsv
+[3.349s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/local_setup.bash
+[3.349s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/local_setup.sh
+[3.349s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/local_setup.zsh
+[3.349s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/local_setup.dsv
+[3.349s] -- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/package.dsv
+[3.358s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/ament_index/resource_index/packages/arduino_communication
+[3.358s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/cmake/arduino_communicationConfig.cmake
+[3.358s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/cmake/arduino_communicationConfig-version.cmake
+[3.359s] -- Up-to-date symlink: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/package.xml
+[3.360s] Invoked command in '/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication

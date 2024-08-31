@@ -1,0 +1,80 @@
+[0.007s] Invoking command in '/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication -- -j16 -l16
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target arduino_serial_node[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/arduino_serial_node.dir/src/arduino_serial_node.cpp.o[0m
+[1.672s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:[m[K In constructor ‘[01m[KArduinoSerialNode::ArduinoSerialNode()[m[K’:
+[1.672s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:16:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::serial_driver::SerialPortConfig[m[K’ has no member named ‘[01m[Kdevice_name[m[K’
+[1.672s]    16 |     device_config->[01;31m[Kdevice_name[m[K = "/dev/ttyUSB0";  // 根据实际情况修改
+[1.672s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[1.672s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:17:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::serial_driver::SerialPortConfig[m[K’ has no member named ‘[01m[Kbaud_rate[m[K’; did you mean ‘[01m[Kuint32_t drivers::serial_driver::SerialPortConfig::m_baud_rate[m[K’? (accessible via ‘[01m[Kuint32_t drivers::serial_driver::SerialPortConfig::get_baud_rate() const[m[K’)
+[1.672s]    17 |     device_config->[01;31m[Kbaud_rate[m[K = 9600;
+[1.672s]       |                    [01;31m[K^~~~~~~~~[m[K
+[1.672s]       |                    [32m[Kget_baud_rate()[m[K
+[1.672s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:18:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::serial_driver::SerialPortConfig[m[K’ has no member named ‘[01m[Kflow_control[m[K’; did you mean ‘[01m[Kdrivers::serial_driver::FlowControl drivers::serial_driver::SerialPortConfig::m_flow_control[m[K’? (accessible via ‘[01m[Kdrivers::serial_driver::FlowControl drivers::serial_driver::SerialPortConfig::get_flow_control() const[m[K’)
+[1.672s]    18 |     device_config->[01;31m[Kflow_control[m[K = SerialPortConfig::FlowControl::NONE;
+[1.672s]       |                    [01;31m[K^~~~~~~~~~~~[m[K
+[1.672s]       |                    [32m[Kget_flow_control()[m[K
+[1.672s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:18:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrivers::serial_driver::SerialPortConfig::FlowControl[m[K’ has not been declared
+[1.672s]    18 |     device_config->flow_control = SerialPortConfig::[01;31m[KFlowControl[m[K::NONE;
+[1.672s]       |                                                     [01;31m[K^~~~~~~~~~~[m[K
+[1.672s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:19:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::serial_driver::SerialPortConfig[m[K’ has no member named ‘[01m[Kparity[m[K’; did you mean ‘[01m[Kdrivers::serial_driver::Parity drivers::serial_driver::SerialPortConfig::m_parity[m[K’? (accessible via ‘[01m[Kdrivers::serial_driver::Parity drivers::serial_driver::SerialPortConfig::get_parity() const[m[K’)
+[1.672s]    19 |     device_config->[01;31m[Kparity[m[K = SerialPortConfig::Parity::NONE;
+[1.672s]       |                    [01;31m[K^~~~~~[m[K
+[1.672s]       |                    [32m[Kget_parity()[m[K
+[1.672s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:19:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrivers::serial_driver::SerialPortConfig::Parity[m[K’ has not been declared
+[1.672s]    19 |     device_config->parity = SerialPortConfig::[01;31m[KParity[m[K::NONE;
+[1.673s]       |                                               [01;31m[K^~~~~~[m[K
+[1.673s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:20:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::serial_driver::SerialPortConfig[m[K’ has no member named ‘[01m[Kstop_bits[m[K’; did you mean ‘[01m[Kdrivers::serial_driver::StopBits drivers::serial_driver::SerialPortConfig::m_stop_bits[m[K’? (accessible via ‘[01m[Kdrivers::serial_driver::StopBits drivers::serial_driver::SerialPortConfig::get_stop_bits() const[m[K’)
+[1.673s]    20 |     device_config->[01;31m[Kstop_bits[m[K = SerialPortConfig::StopBits::ONE;
+[1.673s]       |                    [01;31m[K^~~~~~~~~[m[K
+[1.673s]       |                    [32m[Kget_stop_bits()[m[K
+[1.673s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:20:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrivers::serial_driver::SerialPortConfig::StopBits[m[K’ has not been declared
+[1.673s]    20 |     device_config->stop_bits = SerialPortConfig::[01;31m[KStopBits[m[K::ONE;
+[1.673s]       |                                                  [01;31m[K^~~~~~~~[m[K
+[1.673s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:26:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::serial_driver::SerialPortConfig[m[K’ has no member named ‘[01m[Kdevice_name[m[K’
+[1.673s]    26 |       serial_driver_->init_port(device_config->[01;31m[Kdevice_name[m[K, *device_config);
+[1.673s]       |                                                [01;31m[K^~~~~~~~~~~[m[K
+[1.745s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.745s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.745s]                  from [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:1[m[K:
+[1.745s] /usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘[01m[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = drivers::serial_driver::SerialPortConfig; _Args = {}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<drivers::serial_driver::SerialPortConfig, std::default_delete<drivers::serial_driver::SerialPortConfig> >][m[K’:
+[1.745s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:15:60:[m[K   required from here
+[1.745s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:962:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdrivers::serial_driver::SerialPortConfig::SerialPortConfig()[m[K’
+[1.745s]   962 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[1.745s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.745s] In file included from [01m[K/opt/ros/humble/include/serial_driver/serial_driver.hpp:22[m[K,
+[1.745s]                  from [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:3[m[K:
+[1.745s] [01m[K/opt/ros/humble/include/serial_driver/serial_port.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdrivers::serial_driver::SerialPortConfig::SerialPortConfig(uint32_t, drivers::serial_driver::FlowControl, drivers::serial_driver::Parity, drivers::serial_driver::StopBits)[m[K’
+[1.745s]    61 |   [01;36m[KSerialPortConfig[m[K(
+[1.745s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.751s] [01m[K/opt/ros/humble/include/serial_driver/serial_port.hpp:61:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[1.751s] [01m[K/opt/ros/humble/include/serial_driver/serial_port.hpp:57:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr drivers::serial_driver::SerialPortConfig::SerialPortConfig(const drivers::serial_driver::SerialPortConfig&)[m[K’
+[1.751s]    57 | class [01;36m[KSerialPortConfig[m[K
+[1.751s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.751s] [01m[K/opt/ros/humble/include/serial_driver/serial_port.hpp:57:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.751s] [01m[K/opt/ros/humble/include/serial_driver/serial_port.hpp:57:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr drivers::serial_driver::SerialPortConfig::SerialPortConfig(drivers::serial_driver::SerialPortConfig&&)[m[K’
+[1.751s] [01m[K/opt/ros/humble/include/serial_driver/serial_port.hpp:57:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.752s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.752s]                  from [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:1[m[K:
+[1.752s] /usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘[01m[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = drivers::serial_driver::SerialDriver; _Args = {std::shared_ptr<drivers::common::IoContext>&}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<drivers::serial_driver::SerialDriver>][m[K’:
+[1.752s] [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:23:52:[m[K   required from here
+[1.752s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:962:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdrivers::serial_driver::SerialDriver::SerialDriver(std::shared_ptr<drivers::common::IoContext>&)[m[K’
+[1.752s]   962 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[1.752s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.752s] In file included from [01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:3[m[K:
+[1.752s] [01m[K/opt/ros/humble/include/serial_driver/serial_driver.hpp:32:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdrivers::serial_driver::SerialDriver::SerialDriver(const drivers::common::IoContext&)[m[K’
+[1.752s]    32 |   explicit [01;36m[KSerialDriver[m[K(const IoContext & ctx);
+[1.752s]       |            [01;36m[K^~~~~~~~~~~~[m[K
+[1.752s] [01m[K/opt/ros/humble/include/serial_driver/serial_driver.hpp:32:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<drivers::common::IoContext>[m[K’ to ‘[01m[Kconst drivers::common::IoContext&[m[K’
+[1.752s]    32 |   explicit SerialDriver([01;36m[Kconst IoContext & ctx[m[K);
+[1.752s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.752s] [01m[K/opt/ros/humble/include/serial_driver/serial_driver.hpp:29:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdrivers::serial_driver::SerialDriver::SerialDriver(const drivers::serial_driver::SerialDriver&)[m[K’
+[1.752s]    29 | class [01;36m[KSerialDriver[m[K
+[1.752s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.753s] [01m[K/opt/ros/humble/include/serial_driver/serial_driver.hpp:29:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<drivers::common::IoContext>[m[K’ to ‘[01m[Kconst drivers::serial_driver::SerialDriver&[m[K’
+[1.753s] [01m[K/opt/ros/humble/include/serial_driver/serial_driver.hpp:29:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdrivers::serial_driver::SerialDriver::SerialDriver(drivers::serial_driver::SerialDriver&&)[m[K’
+[1.753s] [01m[K/opt/ros/humble/include/serial_driver/serial_driver.hpp:29:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<drivers::common::IoContext>[m[K’ to ‘[01m[Kdrivers::serial_driver::SerialDriver&&[m[K’
+[2.234s] gmake[2]: *** [CMakeFiles/arduino_serial_node.dir/build.make:76：CMakeFiles/arduino_serial_node.dir/src/arduino_serial_node.cpp.o] 错误 1
+[2.234s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/arduino_serial_node.dir/all] 错误 2
+[2.235s] gmake: *** [Makefile:146：all] 错误 2
+[2.236s] Invoked command in '/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication -- -j16 -l16

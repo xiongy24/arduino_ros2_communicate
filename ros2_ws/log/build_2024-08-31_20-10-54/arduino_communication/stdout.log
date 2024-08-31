@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target arduino_serial_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/arduino_serial_node.dir/src/arduino_serial_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable arduino_serial_node[0m
+[100%] Built target arduino_serial_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/lib/arduino_communication/arduino_serial_node
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/ament_index/resource_index/package_run_dependencies/arduino_communication
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/ament_index/resource_index/parent_prefix_path/arduino_communication
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/environment/ament_prefix_path.sh
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/environment/ament_prefix_path.dsv
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/environment/path.sh
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/environment/path.dsv
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/local_setup.bash
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/local_setup.sh
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/local_setup.zsh
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/local_setup.dsv
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/package.dsv
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/ament_index/resource_index/packages/arduino_communication
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/cmake/arduino_communicationConfig.cmake
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/cmake/arduino_communicationConfig-version.cmake
+-- Symlinking: /home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/arduino_communication/share/arduino_communication/package.xml

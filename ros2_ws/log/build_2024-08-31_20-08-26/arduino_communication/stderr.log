@@ -1,0 +1,13 @@
+[01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:[m[K In constructor ‘[01m[KArduinoSerialNode::ArduinoSerialNode()[m[K’:
+[01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrivers::serial_driver::SerialPortConfig::FlowControl[m[K’ has not been declared
+   17 |       SerialPortConfig::[01;31m[KFlowControl[m[K::NONE,
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:18:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrivers::serial_driver::SerialPortConfig::Parity[m[K’ has not been declared
+   18 |       SerialPortConfig::[01;31m[KParity[m[K::NONE,
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/src/arduino_communication/src/arduino_serial_node.cpp:19:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrivers::serial_driver::SerialPortConfig::StopBits[m[K’ has not been declared
+   19 |       SerialPortConfig::[01;31m[KStopBits[m[K::ONE
+      |                         [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/arduino_serial_node.dir/build.make:76：CMakeFiles/arduino_serial_node.dir/src/arduino_serial_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/arduino_serial_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,1 @@
+/home/xy/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/build/arduino_communication/ament_cmake_environment_hooks/local_setup.sh
